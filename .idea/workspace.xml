@@ -2,36 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab332a9d-07b1-432a-95cb-d93f79aa4e97" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.dvc/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dvc/config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dvc/plots/confusion.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dvc/plots/confusion_normalized.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dvc/plots/default.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dvc/plots/linear.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dvc/plots/scatter.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dvc/plots/smooth.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.dvcignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/Sample_App.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/processed/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/raw/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_given/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_given/winequality.csv.dvc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dvc.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notebooks/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/params.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/saved_models/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/params.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/params.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
