@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab332a9d-07b1-432a-95cb-d93f79aa4e97" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/split_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/params.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/scores.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/train_and_evaluate.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dvc.lock" beforeDir="false" afterPath="$PROJECT_DIR$/dvc.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dvc.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/dvc.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +44,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
-  <component name="RunManager" selected="Python.split_data">
+  <component name="RunManager" selected="Python.train_and_evaluate">
     <configuration name="get_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Sample_App" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -146,14 +150,37 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="train_and_evaluate" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Sample_App" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/train_and_evaluate.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.template" />
       <item itemvalue="Python.get_data" />
       <item itemvalue="Python.load_data" />
       <item itemvalue="Python.split_data" />
+      <item itemvalue="Python.train_and_evaluate" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.train_and_evaluate" />
         <item itemvalue="Python.split_data" />
         <item itemvalue="Python.get_data" />
         <item itemvalue="Python.load_data" />
