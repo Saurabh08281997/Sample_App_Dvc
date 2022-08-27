@@ -2,7 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab332a9d-07b1-432a-95cb-d93f79aa4e97" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/build/lib/src/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/src/get_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/src/load_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/src/split_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/src/train_and_evaluate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/tests/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/tests/test_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src.egg-info/PKG-INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src.egg-info/SOURCES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src.egg-info/dependency_links.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src.egg-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tox.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Sample_App.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Sample_App.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
