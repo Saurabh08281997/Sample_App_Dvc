@@ -9,13 +9,13 @@ schema_path = os.path.join("prediction_service", "schema_in.json")
 
 
 class NotInRange(Exception):
-    def __init__(self, message="Values entered are not in range"):
+    def __init__(self, message="Values entered are not in expected range"):
         self.message = message
         super().__init__(self.message)
 
 
 class NotInCols(Exception):
-    def __init__(self, message="Not in columns"):
+    def __init__(self, message="Not in cols"):
         self.message = message
         super().__init__(self.message)
 
@@ -31,7 +31,6 @@ def predict(data):
     model_dir_path = config["webapp_model_dir"]
     model = joblib.load(model_dir_path)
     prediction = model.predict(data).tolist()[0]
-
     try:
         if 3 <= prediction <= 8:
             return prediction
@@ -56,6 +55,7 @@ def validate_input(dict_request):
 
     def _validate_values(col, val):
         schema = get_schema()
+
         if not (schema[col]["min"] <= float(dict_request[col]) <= schema[col]["max"]):
             raise NotInRange
 
@@ -82,5 +82,5 @@ def api_response(dict_request):
             response = {"response": response}
             return response
     except Exception as e:
-        response = {"the_expected_range": get_schema(), "response": str(e)}
+        response = {"the_exected_range": get_schema(), "response": str(e)}
         return response

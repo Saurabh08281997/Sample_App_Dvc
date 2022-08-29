@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab332a9d-07b1-432a-95cb-d93f79aa4e97" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/prediction_service/schema_in.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prediction_service/prediction.py" beforeDir="false" afterPath="$PROJECT_DIR$/prediction_service/prediction.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +48,7 @@
       <recent name="C:\Users\dell\Desktop\Ineuron\MLOPS\Sample_App\prediction_service\model" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.prediction">
+  <component name="RunManager" selected="Python.app">
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Sample_App" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -209,8 +206,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.prediction" />
         <item itemvalue="Python.app" />
+        <item itemvalue="Python.prediction" />
         <item itemvalue="Python.train_and_evaluate" />
         <item itemvalue="Python.split_data" />
         <item itemvalue="Python.get_data" />
